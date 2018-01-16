@@ -1,9 +1,10 @@
 ---
 layout: post
+comments: true
 title:  Blog Reloaded!
-lang: ko
 categories: misc
 tags: notice
+lang: ko
 date:   2018-01-13 00:08:40 +0900
 ---
 블로깅 재개!

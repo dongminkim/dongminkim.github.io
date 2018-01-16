@@ -23,6 +23,7 @@ twitter_username: vanyclub
 github_username:  dongminkim
 
 # Build settings
+comments: true
 markdown: kramdown
 #theme: minima
 theme: jekyll-whiteglass
