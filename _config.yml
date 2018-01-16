@@ -24,27 +24,26 @@ github_username:  dongminkim
 
 # Build settings
 markdown: kramdown
-theme: minima
-#theme: jekyll-whiteglass
-#remote_theme: yous/whiteglass
+#theme: minima
+theme: jekyll-whiteglass
+remote_theme: yous/whiteglass
 plugins:
-  - jekyll-feed
   - jekyll-paginate
-#  - jekyll-archives
-#  - jekyll-sitemap
+  - jekyll-archives
+  - jekyll-sitemap
 
 permalink: /:year/:month/:day/:title/
 paginate_path: /posts/:num/
 paginate: 5
 
-#jekyll-archives:
-#  enabled:
-#    - categories
-#    - tags
-#  layout: category_archives
-#  permalinks:
-#    category: /categories/:name/
-#    tag: /tags/:name/
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layout: category_archives
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

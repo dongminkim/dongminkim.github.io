@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  Blog Reloaded!
+lang: ko
 categories: misc
 tags: notice
 date:   2018-01-13 00:08:40 +0900
